@@ -1,12 +1,6 @@
 # VIGC: Visual Instruction Generation and Correction
 
-We propose **Visual Instruction Generation and Correction (VIGC)**, a framework capable of autonomously generating high-quality image-text instruction fine-tuning datasets.
-
-<p align="center">
-    <br>
-    <img src="assets/overview_new.png"/>
-    <br>
-<p>
+**Visual Instruction Generation and Correction (VIGC)**, a framework capable of autonomously generating high-quality image-text instruction fine-tuning datasets.
 
 ## Table of Contents
   - [Getting Started](#getting-started)
@@ -82,9 +76,6 @@ We propose **Visual Instruction Generation and Correction (VIGC)**, a framework 
       - device0: The gpu id of the first model
 
       - device1: The gpu id of the second model
-
-
-​	You can also  visit [![Open in OpenXLab](./assets/openxlab_logo.svg)](https://openxlab.org.cn/apps/detail/hanxiao/VIGC) to play with VIGC online demo.
 
 ## Tutorials
 
@@ -192,24 +183,8 @@ We propose **Visual Instruction Generation and Correction (VIGC)**, a framework 
    - [Vicuna](https://github.com/lm-sys/FastChat). The fantastic language ability of Vicuna with only 13B parameters is just amazing. And it is open-source!
    - [LLaVA](https://github.com/haotian-liu/LLaVA), [A-OKVQA](https://github.com/allenai/aokvqa), [OKVQA](https://okvqa.allenai.org/). The model of VIGC are finetuned on these datasets.
 
-
-## Paper and Citing VIGC
-
-You can find more details in our [paper](https://arxiv.org/abs/2308.12714).
-
-If you're using VIGC in your research or applications, please cite using this BibTeX:
-
-```bibtex
-@article{wang2023vigc, 
-      title={VIGC: Visual Instruction Generation and Correction},
-      author={Wang, Bin and Wu, Fan and Han, Xiao and Peng, Jiahui and Zhong, Huaping and Zhang, Pan and Dong, Xiaoyi and Li, Weijia and Li, Wei and Wang, Jiaqi and He, Conghui},
-      journal={arXiv preprint arXiv:2308.12714},
-      year={2023}
-}
-```
-
 ## Contact us
-If you have any questions, comments or suggestions, please do not hesitate to contact us at wangbin@pjlab.org.cn or wufan@pjlab.org.cn.
+If you have any questions, comments or suggestions, please do not hesitate to contact us at rui.sun@samsung.com.
 
 ## License
 [Apache License 2.0](LICENSE.txt)
